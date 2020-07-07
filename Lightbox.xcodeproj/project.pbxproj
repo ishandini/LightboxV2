@@ -98,6 +98,8 @@
 		120C33D722D51F98000E4292 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		166E3BA820333E04006799C1 /* LightboxImageStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightboxImageStub.swift; sourceTree = "<group>"; };
 		862CEFD024B43FF5004163DA /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		862CEFEE24B45286004163DA /* iOSSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSSample.h; sourceTree = "<group>"; };
+		862CEFEF24B45286004163DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D22006731DFB4D9700E92898 /* Lightbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Lightbox.bundle; sourceTree = "<group>"; };
 		D2258CC3215CD035005A9A1C /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D229B5E11FC3123F00F04123 /* Lightbox-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lightbox-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +157,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		862CEFED24B45286004163DA /* iOSSample */ = {
+			isa = PBXGroup;
+			children = (
+				862CEFEE24B45286004163DA /* iOSSample.h */,
+				862CEFEF24B45286004163DA /* Info.plist */,
+			);
+			path = iOSSample;
+			sourceTree = "<group>";
+		};
 		D22006721DFB4D9700E92898 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +200,7 @@
 				D523B0B41C43AA8A001AD1EC /* Source */,
 				D523B0AB1C43AA2A001AD1EC /* Lightbox */,
 				D229B5E21FC3123F00F04123 /* Lightbox-iOS-Tests */,
+				862CEFED24B45286004163DA /* iOSSample */,
 				D523B0AA1C43AA2A001AD1EC /* Products */,
 				D2A58F5C1F7943A30064F14E /* Frameworks */,
 				120C339022D51307000E4292 /* AlamofireImage.xcodeproj */,
@@ -306,7 +318,7 @@
 		D523B0A01C43AA2A001AD1EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "AI Solutions";
 				TargetAttributes = {
@@ -327,6 +339,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D523B09F1C43AA2A001AD1EC;
 			productRefGroup = D523B0AA1C43AA2A001AD1EC /* Products */;
