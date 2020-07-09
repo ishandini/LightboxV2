@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		166E3BA920333E04006799C1 /* LightboxImageStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166E3BA820333E04006799C1 /* LightboxImageStub.swift */; };
 		862CEFD224B44006004163DA /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862CEFD024B43FF5004163DA /* AlamofireImage.framework */; };
+		86848CAC24B6C19E007EDFDD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86848CA224B6C19E007EDFDD /* Alamofire.framework */; };
 		D22006741DFB4D9700E92898 /* Lightbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D22006731DFB4D9700E92898 /* Lightbox.bundle */; };
 		D2258CC4215CD035005A9A1C /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2258CC3215CD035005A9A1C /* Color+Extensions.swift */; };
 		D229B5E61FC3123F00F04123 /* LightboxV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D523B0A91C43AA2A001AD1EC /* LightboxV2.framework */; };
@@ -100,6 +101,7 @@
 		862CEFD024B43FF5004163DA /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		862CEFEE24B45286004163DA /* iOSSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSSample.h; sourceTree = "<group>"; };
 		862CEFEF24B45286004163DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86848CA224B6C19E007EDFDD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		D22006731DFB4D9700E92898 /* Lightbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Lightbox.bundle; sourceTree = "<group>"; };
 		D2258CC3215CD035005A9A1C /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D229B5E11FC3123F00F04123 /* Lightbox-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lightbox-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				862CEFD224B44006004163DA /* AlamofireImage.framework in Frameworks */,
+				86848CAC24B6C19E007EDFDD /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +189,7 @@
 		D2A58F5C1F7943A30064F14E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86848CA224B6C19E007EDFDD /* Alamofire.framework */,
 				862CEFD024B43FF5004163DA /* AlamofireImage.framework */,
 				120C33D722D51F98000E4292 /* Alamofire.framework */,
 			);
