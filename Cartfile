@@ -1,1 +1,1 @@
-github "Alamofire/AlamofireImage"
+github "Alamofire/AlamofireImage" ~> 4.0.1
